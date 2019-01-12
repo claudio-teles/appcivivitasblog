@@ -1,10 +1,12 @@
 # appcivivitasblog
 
-Esse projeto foi compilado para um usuário e senha específicos, você precisa mudar o nome do usuário e senha, para ficar igual ao que você tem no seu MySQL, depois, vá até o diretório rais do projeto, appcivitasblog, onde fica os arquivos do maven e digite o seguinte comando:
+Mude o nome de usuário e a senha do seu banco de dados mysql
+
+Esse projeto foi compilado para um usuário e senha específicos, você precisará mudar o nome do usuário e senha, para ficar 
+igual ao que você tem no seu MySQL, depois, vá até o diretório raiz do projeto, appcivitasblog, onde fica os arquivos do maven e 
+digite o seguinte comando:
 mvn package
 Esse comando irá reempacotar o seu projeto para as suas configuração do seu banco de dados.
-
-Mude o nome de usuário e a senha do seu banco de dados mysql
 
 Depois de reempacotar o projeto com o comando mostrado acima, faça os passo seguintes:
 
