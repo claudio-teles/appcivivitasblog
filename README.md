@@ -1,8 +1,14 @@
 # appcivivitasblog
 
-1º Mude o nome de usuário e a senha do seu banco de dados mysql
+Esse projeto foi compilado para um usuário e senha específicos, você precisa mudar o nome do usuário e senha, para ficar igual ao que você tem no seu MySQL, depois, vá até o diretório rais do projeto, appcivitasblog, onde fica os arquivos do maven e digite o seguinte comando:
+mvn package
+Esse comando irá reempacotar o seu projeto para as suas configuração do seu banco de dados.
 
-2º Vá até o diretório target e execute o seguinte comando:
+Mude o nome de usuário e a senha do seu banco de dados mysql
+
+Depois de reempacotar o projeto com o comando mostrado acima, faça os passo seguintes:
+
+Vá até o diretório target e execute o seguinte comando:
 java -jar appcivitasblog-0.0.1.jar
 
 Esse comando irá iniciar o Tomcat e React.js no Node.js na sequinte url: http://localhost:8080, abra o seu navegador nessa url.
