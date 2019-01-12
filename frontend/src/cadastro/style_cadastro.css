@@ -1,0 +1,55 @@
+.Cadastro {
+  text-align: center;
+}
+
+.Cadastro-logo {
+  animation: Cadastro-logo-spin infinite 80s linear;
+  height: 25vmin;
+}
+
+#cad-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./teclado_cadastro.jpg');
+  height: 68vh;
+}
+
+#btn_ver_postagem {
+  margin-left: 147px;
+}
+
+.ir_pag_inicial {
+  margin-top: 15px;
+  margin-right: 90px;
+}
+
+#sen {
+  margin-top: 10%;
+  margin-right: 70px;
+}
+
+#btn-conf {
+  margin-top: 20%;
+  margin-right: 130px;
+}
+
+.Cadastro-header {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: SlateBlue;
+}
+
+@keyframes Cadastro-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

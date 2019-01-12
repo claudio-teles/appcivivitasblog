@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+
+.roda_pe {
+  background-image: linear-gradient(to top, #6E7F80, rgba(0,0,0,.9));
+}
+
+.ir_pag_cadastro {
+  padding: 5px;
+  text-align: right;
+}
+
+#index {
+  color: SlateBlue;
+  background-color: MediumSeaGreen;
+  text-shadow: 1px 1px 1px black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
